@@ -1,14 +1,9 @@
 #include <iostream>
-#include "useless_header.h"
+#include "real.h"
 
 int main()
 {
+	woof();
 
-std::cout << "Hello, git!" << std::endl;
-
-useless_function();
-useless_function();
-
-return 0;
-
+	return 0;
 }
